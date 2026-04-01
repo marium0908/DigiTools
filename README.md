@@ -41,7 +41,7 @@ Fully responsive across mobile, tablet, and desktop devices for a seamless exper
 
 ## 📂 Live Demo
 
-👉 [View Live Site](https://69ccbfa61d6e913c6fdb77c1--glittery-biscochitos-5021cb.netlify.app/)
+👉 [View Live Site](https://digitools-a6-ph13.netlify.app/)
 
 ---
 
