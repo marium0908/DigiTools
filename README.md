@@ -1,16 +1,50 @@
-# React + Vite
+# 🎯 DigiTools – Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+DigiTools is a modern and responsive web application where users can explore and purchase various digital tools such as AI writing software, design templates, automation tools, and more. The platform provides a smooth user experience with product browsing, cart management, and interactive UI components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Tailwind CSS
+* DaisyUI
+* JavaScript (ES6+)
+* React-Toastify
+* JSON (for product data)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* 🛒 **Add to Cart System** – Users can add products to the cart and see real-time updates in the navbar.
+* 🔄 **Toggle Functionality** – Easily switch between Products and Cart view.
+* 🔔 **Interactive Alerts** – Toast notifications for adding, removing, and checkout actions.
+
+---
+
+## 📱 Responsive Design
+
+Fully responsive across mobile, tablet, and desktop devices for a seamless experience.
+
+---
+
+## ⚙️ Additional Features
+
+* Remove items from cart individually
+* Proceed to checkout clears all cart items
+* Dynamic product rendering using JSON data
+
+---
+
+## 📂 Live Demo
+
+👉 [View Live Site](https://69ccbfa61d6e913c6fdb77c1--glittery-biscochitos-5021cb.netlify.app/)
+
+---
+
+## 🧑‍💻 Author
+
+Developed by Marium Binte Muhammad
