@@ -15,13 +15,13 @@ const Navbar = ({ carts }) => {
       {/* logo section */}
       <div className="navbar-start">
         <a className="flex items-center gap-2 cursor-pointer">
-          <span className="lg:ml-[200px] text-4xl p-1 font-bold tracking-tight bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">DigiTools
+          <span className="2xl:ml-[200px] text-4xl p-1 font-bold tracking-tight bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">DigiTools
           </span>
         </a>
       </div>
 
       {/* middle menu */}
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden 2xl:flex">
         <ul className="menu menu-horizontal px-1 gap-4">
           {navLinks.map((link) => (
             <li key={link.name}>
@@ -60,16 +60,12 @@ const Navbar = ({ carts }) => {
         </a>
 
         {/* get started btn */}
-        <button className=" lg:mr-[200px] btn btn-primary rounded-full px-7 text-white bg-gradient-to-r from-blue-600 to-purple-600 border-none hover:from-blue-700 hover:to-purple-700 transition-all font-semibold hidden sm:flex">
+        <button className="2xl:mr-[200px] btn btn-primary rounded-full px-7 text-white bg-gradient-to-r from-blue-600 to-purple-600 border-none hover:from-blue-700 hover:to-purple-700 transition-all font-semibold hidden sm:flex">
           Get Started
         </button>
 
         {/* Responsive */}
-      
-
-
-
-        <div className="dropdown dropdown-end lg:hidden">
+        <div className="dropdown dropdown-end 2xl:hidden">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
